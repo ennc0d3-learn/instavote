@@ -9,7 +9,6 @@ spec:
   replicas: 4
   template:
     spec:
-      - name: vote
         containers:
           - image: schoolofdevops/vote:v3
             name: vote
