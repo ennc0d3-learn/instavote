@@ -1,8 +1,6 @@
-apiVersion: kustomization.config.k8s.io/v1beta1
-kind: Kustomaization
-
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
 resources:
   - ../base
-
 patchesStrategicMerge:
   - deployment.yaml
