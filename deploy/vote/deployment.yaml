@@ -4,9 +4,10 @@ metadata:
   creationTimestamp: null
   labels:
     app: vote
+    tier: frontend
   name: vote
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: vote
